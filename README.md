@@ -17,7 +17,6 @@
 This is a solution to the [Testimonial Grid Card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7).
 
   <p align="center">   
-
     <a href="https://sedaryildirim.github.io/testimonials-grid-section-main/">View Site</a>
     ·
     <a href="https://github.com/sedaryildirim/testimonials-grid-section-main/issues">Report Bug</a>
