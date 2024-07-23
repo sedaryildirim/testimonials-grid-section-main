@@ -1,17 +1,14 @@
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
 
 :root {
     /* Colors */
     --violet: hsl(263, 55%, 52%);
     --dark-blue: hsl(217, 19%, 35%);
     --dark-black-blue: hsl(219, 29%, 14%);
-    --White: hsl(0, 0%, 100%);
+    --white: hsl(0, 0%, 100%);
     --light-gray: hsl(0, 0%, 81%);
     --light-blue: hsl(210, 46%, 95%);
-
-    /* Typography */
-    --font-size-body: 0.875; /* 16px */
 
     /* Font weights */
     --font-weight-regular: 500;
@@ -23,85 +20,104 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Barlow Semi Condensed", sans-serif;
 }
 
 /* Body */
 body {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    background-color: var(--light-blue);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: var(--light-blue);
+    padding: 24px;
 }
 
 /* Container */
 .container {
-    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 24px;
+    max-width: 1110px;
+    width: 100%;
 }
 
 /* Cards */
 .card {
-    margin-bottom: 2rem;
-    padding: 2rem;
-    color: var(--White);
-    border-radius: 0.5rem;
-    box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.46);
--webkit-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.46);
--moz-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.46);
-}
-
-img {
-    border: 1px solid white;
-    border-radius: 50%;
+    padding: 26px 32px;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .card-purple {
+    background-color: var(--violet);
+    color: var(--white);
     background-image: url("../images/bg-pattern-quotation.svg");
     background-repeat: no-repeat;
-    background-color: var(--violet);
+    background-position: top right 10%;
 }
 
 .card-gray {
     background-color: var(--dark-blue);
+    color: var(--white);
+}
+
+.card-white {
+    background-color: var(--white);
+    color: var(--dark-blue);
 }
 
 .card-black {
     background-color: var(--dark-black-blue);
-}
-
-.card-white {
-    background-color: var(--White);
-    color: black;
+    color: var(--white);
 }
 
 header {
     display: flex;
-    flex-direction: row;
-    padding-bottom: 1rem;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.profile-img {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin-right: 14px;
+}
+
+.profile-info .name {
+    font-size: 13px;
+    font-weight: var(--font-weight-bold);
+}
+
+.profile-info p {
+    font-size: 11px;
+    opacity: 0.5;
 }
 
 .testimonial {
+    font-size: 20px;
     font-weight: var(--font-weight-bold);
-    padding-bottom: 1rem;
+    line-height: 1.2;
+    margin-bottom: 16px;
 }
 
-.profile-info {
-    padding-left: 1rem;
+.quote {
+    font-size: 13px;
+    opacity: 0.7;
 }
 
-/* Attribution  */
+/* Attribution */
 .attribution {
     font-size: 11px;
     text-align: center;
-    margin-top: 2rem;
-    position: fixed;
-    bottom: 2rem;
-    left: 0;
-    right: 0;
-  }
-  
-  .attribution a {
+    margin-top: 20px;
+}
+
+.attribution a {
     color: hsl(228, 45%, 44%);
-  }
+}
