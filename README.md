@@ -1,5 +1,3 @@
-# testimonials-grid-section-main
- Front End Mentor Challenge
 <br />
 <div align="center">
     <img src="/assets/images/200w.gif" alt="Logo">
