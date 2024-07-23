@@ -59,6 +59,11 @@ body {
 transition: ease-out 0.3s;
 }
 
+.card.in-view {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
 .card-purple {
     background-color: var(--violet);
     color: var(--white);
