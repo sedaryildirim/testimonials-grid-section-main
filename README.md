@@ -31,9 +31,6 @@ This is a solution to the [Testimonial Grid Card challenge on Frontend Mentor](h
 </div>
 
 
-- Solution URL: [Add solution URL here](https://github.com/sedaryildirim/testimonials-grid-section-main)
-- Live Site URL: [Add live site URL here](https://sedaryildirim.github.io/testimonials-grid-section-main/)
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
