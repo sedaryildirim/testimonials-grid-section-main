@@ -24,33 +24,16 @@ This is a solution to the [Testimonial Grid Card challenge on Frontend Mentor](h
 </div>
 
 
-## Screenshot
-
 <div align="center">
 
 ![Mobile](./assets/images/mobile.png)
 ![Desktop](./assets/images/desktop.png)
 </div>
 
-## Links
 
 - Solution URL: [Add solution URL here](https://github.com/sedaryildirim/testimonials-grid-section-main)
 - Live Site URL: [Add live site URL here](https://sedaryildirim.github.io/testimonials-grid-section-main/)
 
-## Built with
-
-- HTML
-- CSS
-- Flexbox
-
-## Useful resources
-
-- [Mockup Generator](https://mockuphone.com/) - Creating mockups for your project
-
-## Author
-
-- Github - [Sedar Yildirim](https://github.com/sedaryildirim)
-- Frontend Mentor - [@sedaryildirim](https://www.frontendmentor.io/profile/sedaryildirim)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
